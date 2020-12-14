@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <LINK REL=StyleSheet HREF="C:\Users\nicol\Desktop\HTML\prueba.css" TYPE="text/css" MEDIA=screen>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Mi formulario de registro</h1>
+        <form action="/action_page.php">
+            <label for="dato1">Nombre:</label>
+            <input type="text" id="dato1" name="dato1"><br><br>
+            <label for="dato2">Apellido:</label>
+            <input type="text" id="dato2" name="dato2"><br><br>
+            <label for="dato3">Email:</label>
+            <input type="text" id="dato3" name="dato3"><br><br>
+            <label for="dato4">Contraseña:</label>
+            <input type="text" id="dato4" name="dato4"><br><br>
+            <label for="dato5">Confirmar:</label>
+            <input type="text" id="dato5" name="dato5"><br><br>
+            <label for="cumple">Cumpleaños:</label>
+            <input type="date" id="cumple" name="cumple">
+            <input type="submit"><br><br><br>
+
+            <input type="radio" id="Masculino" name="genero" value="Masculino">
+            <label for="Masculino">Masculino</label><br>
+            <input type="radio" id="female" name="genero" value="female">
+            <label for="female">Femenino</label><br>
+            <input type="radio" id="other" name="genero" value="other">
+            <label for="other">Otro</label>
+            <p>Una breve descripcion de ti:</p>
+            <textarea name="message" rows="10" cols="30"></textarea><br>
+
+            <label for="dato6">Lenguaje favorito:</label>
+
+            <input list="lenguajes" name="lenguajes">
+            <datalist id="lenguajes">
+    <option value="HTML">
+    <option value="Javascript">
+    <option value="C++">
+    <option value="CSS">
+    <option value="Python">
+    </datalist><br><br>
+            <button class="boton">Enviar</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
